@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<!-- Mirrored from aurora-project.ru/payment/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 15:52:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+	<title>AURORA - ПРИВАТНЫЙ ЧИТ ДЛЯ CS:GO</title>
+	<meta name="author" content="@2raev @MilkyWay">
+	<meta property="og:image" content="../main/templates/new/img/og_img.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="Чит для КСГО! Лучший легитный чит для КС ГО. Идеальное соотношение цены и качества. Cheat for csgo! Best legit cheat for counter strike. The best cheat on the market">
+	<meta name="keywords" content="CSGO,CHEAT,HACK,FOR,HACK FOR CSGO,ЧИТ, чит, ксго, чит для ксго, лучший, легитный чит,легит,рейдж,legit,rage,visual,visuals,wh,aim,aimbot,trigger,triggerbot,best hack,perfect aim,killshot,aqua,aquacheat,legit cheat for csgo,counter strike, counter,strike,CS-GO,CS:GO,global,offensive,global offensive">
+	<link rel="shortcut icon" href="../main/templates/new/img/og_img.png">
+	<link rel="stylesheet" href="../../use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="../main/templates/new/css/style.css"> 
+	
+</head>
+
+<body class="flex flex-column a-center j-spacebetween body t-6">
+
+<div class="alerts"></div>
+
+<form class="auth-block flex flex-column __modalLogin" data-id="login" id="auth">
+	<span class="auth-block__heading">Вход</span>
+	<input type="text" class="auth-block__input auth-block__input_login login" placeholder="Логин">
+	<input type="password" class="auth-block__input auth-block__input_password password" placeholder="Пароль">
+	<div class="g-recaptcha"></div>
+	<button class="auth-block__button t-6" type="submit">Войти</button>
+	<!--<a href="#" class="auth-block__reset t-6">Забыл пароль?</a>-->
+</form> 
+
+<form class="auth-block flex flex-column __modalReg" data-id="reg" id="reg">
+	<span class="auth-block__heading __Register">Регистрация</span>
+	<input type="text" class="auth-block__input auth-block__input_login login" placeholder="Логин">
+	<input type="text" class="auth-block__input auth-block__input_login email" placeholder="E-mail">
+	<input type="password" class="auth-block__input auth-block__input_password password" placeholder="Пароль">
+	<input type="password" class="auth-block__input auth-block__input_password password2" placeholder="Пароль еще раз">
+	<div class="g-recaptcha"></div>
+	<button class="auth-block__button t-6 __RegisterBtn">Зарегистрироваться</button>
+	<span class="auth-block__info f-medium t-6">
+		Нажимая на кнопку “Зарегистрироваться” вы соглашаетесь с условиями
+		<a href="../agreements/index.html" target="_blank" class="auth-block__agree t-6">соглашения</a>
+	</span>
+</form>
+
+<div class="__clicker"></div>
+<div class="__wrap flex flex-column a-center j-center">
+<!-- HEADER BLOCK =========== -->
+<header class="header flex a-center container">
+	<a href="../index.html" class="header__logo f-black t-6">AuroraProject</a>
+
+	<nav class="header__menu flex a-center">
+		<a href="../index.html" class="menu__link t-6">Главная</a>
+		<a href="../func.html" class="menu__link t-6">Функционал</a>
+		<a href="index.html" class="menu__link menu__link_active t-6">Купить</a>
+		<a href="../instruction/index.html" class="menu__link t-6" >Инструкция</a>
+	</nav>
+
+	<div class="header__auth flex a-center">
+				<a class="auth__login f-medium t-6 __Login" data-id="login">Вход</a>
+		<a class="auth__reg f-medium t-6 __Reg" data-id="reg">Регистрация</a>
+			</div>
+</header>
+<!-- MAIN ROOT CONTAINER -->
+<main class="main flex j-center a-center">
+
+	<form class="flex flex-wrap container a-center j-center container" data-id="youtube">
+		<strong class="section__heading f-bold">Оформление заказа</strong>
+
+
+		<div class="slider">
+			<a class="ui-slider-handle" href="#">
+				<div hidden="true" id="slider-result">0</div>
+			</a>
+			<input id="znch" name="znch" type="hidden" />
+		</div>
+
+		<div class="price-table flex column j-spacebetween">
+			<div class="price-table__price f-black">7</div>
+			<div class="price-table__price f-black">30</div>
+			<div class="price-table__price f-black">60</div>
+			<div class="price-table__price f-black">90</div>
+			<div class="price-table__price f-black">180</div>
+			<div class="price-table__price f-black">360</div>
+			<div class="price-table__price f-black">∞</div>
+		</div>
+
+		<em class="section__info">
+			Перетащите ползунок, чтобы выбрать<br>
+			нужный тарифный план
+		</em>
+
+		<div class="price-info flex j-spacebetween a-center" style="margin-top: 10px;">
+			<div class="price-info__result __priceResult">30 дней</div>
+
+			<div class="price-info__topay"><span class="__priceTopay f-medium">149</span> <br> Рублей</div>
+
+			<a class="price-info__button t-6" id="payment" href="pay/30/index.html">Оплатить</a>
+		</div>
+
+	</form>
+
+	
+
+</main>
+	
+<!-- FOOTER BLOCK ========== -->
+<footer class="footer flex a-center">
+	<span class="footer__copyright f-medium">AURORA-PROJECT.RU ©2018-2019 Copyright</span>
+
+	<div class="footer__social flex a-center">
+		<a href="http://www.youtube.com/channel/UCHeuRvHUKsw7BApFe_Pf-kg" class="social__link social__link_youtube t-6" target="_blank"></a>
+		<a href="http://vk.com/aurorareborn" class="social__link social__link_vk t-6" target="_blank"></a>
+		<a href="http://discord.gg/eqYc8QB" class="social__link social__link_discord t-6" target="_blank"></a>
+	</div>
+</footer>
+</div>
+<script src="../../cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../../code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="../../www.google.com/recaptcha/api7642.js?onload=recaptchaCallback&amp;render=explicit" async defer></script>
+<script type="text/javascript">
+	var recaptchaCallback = function() {
+		$('.g-recaptcha').each(function(index, el) {
+			var widgetId = grecaptcha.render(el, { 'sitekey' : '6LdfOoQUAAAAAP7ea8B9Xlz2pXtw-n69GfJuq628', 'theme' : 'dark'});
+			$(this).attr('data-widget-id', widgetId);
+		});
+	}
+</script>
+<script src="../main/templates/new/js/script.js"></script>
+<script>
+$(document).ready(function(){
+	$( ".slider" ).slider({
+		animate: true,
+		range: "min",
+		value: 2,
+		min: 1,
+		max: 7,
+		step: 1,
+		 
+		slide: function( event, ui ) {
+			$( "#slider-result" ).html(ui.value);
+		},
+		 
+		change: function(event, ui) {
+			$('#znch').attr('value', ui.value);
+		}
+	 
+	});
+
+
+const handle = document.querySelector(".ui-slider-handle")
+const priceValue = document.querySelector("#slider-result");
+const priceResult = document.querySelector(".__priceResult");
+
+const price = document.querySelector(".__priceTopay");
+
+handle.addEventListener("mouseover", ()=> {
+
+	if(priceValue.innerText === "1") {
+		priceResult.innerText = "7 дней";
+		$('#payment').attr('href', 'pay/7/index.html');
+		return price.innerText = "80";
+	}
+
+	if(priceValue.innerText === "2") {
+		priceResult.innerText = "30 дней";
+		$('#payment').attr('href', 'pay/30/index.html');
+		return price.innerText = "149";
+	}
+
+	if(priceValue.innerText === "3") {
+		priceResult.innerText = "60 дней";
+		$('#payment').attr('href', 'pay/60/index.html');
+		return price.innerText = "249";
+	}
+
+	if(priceValue.innerText === "4") {
+		priceResult.innerText = "90 дней";
+		$('#payment').attr('href', 'pay/90/index.html');
+		return price.innerText = "399";
+	}
+
+	if(priceValue.innerText === "5") {
+		priceResult.innerText = "180 дней";
+		$('#payment').attr('href', 'pay/180/index.html');
+		return price.innerText = "749";
+	}
+
+	if(priceValue.innerText === "6") {
+		priceResult.innerText = "360 дней";
+		$('#payment').attr('href', 'pay/360/index.html');
+		return price.innerText = "1299";
+	}
+
+	if(priceValue.innerText === "7") {
+		priceResult.innerText = "Навсегда";
+		$('#payment').attr('href', 'pay/9999/index.html');
+		return price.innerText = "1399";
+	}
+});
+
+
+$('#payment').on('click', function(){
+    var check = validUser();
+    if(!check){
+        sendAlert(false, 'Авторизуйтесь!');
+        return false;
+    }
+});
+function validUser(){
+    var res;
+    $.ajax({
+        type: 'POST',
+        url: "/auth/check/",
+        data: null,
+        async: false,
+        dataType: 'json',
+        success: function(data)
+            {
+                if(data['status'] == false){
+                    return res = false;
+                }
+                return res = true;
+            }
+    });
+    return res;
+};
+
+});
+</script>
+
+<noscript>
+	<div style="background-color: rgba(0,0,0,.8); width: 100%; height: 100vh; position: fixed; top: 0; left: 0; text-align: center; display: flex; justify-content: center; align-items: center; font-size: 24px; color: #fff; padding: 10px">
+		<span>Пожалуйста, включите JavaScript в настройках браузера</span>
+	</div>
+</noscript>	
+</body>
+
+<!-- Mirrored from aurora-project.ru/payment/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 15:52:25 GMT -->
+</html>
